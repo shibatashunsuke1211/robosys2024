@@ -9,27 +9,41 @@ ng () {
 
 res=0
 
+# plus
 out=$(seq 5 | ./plus)
-++seq 5
-++ ./plus
-+ out=15
 [ "${out}" = 15 ] || "$LINENO"
-+'[' 15 = 15 ']'
-
-[ "${res}" = 0 ] && echo OK
-+ '['0 = 0']'
-+ echo OK
-OK
-exit $res
-+ exit 0
 
 out=$(echo あ | ./plus)
-["$?" = 1]
-["${out}" = "" ] || ng "$LINENO"
+[ "$?" = 1 ]|| ng "$LINENO"
 
 out=$(echo | ./plus)
-[ "$?" = 1 ]
-[ "${out}" = "" ] || ng "$LINENO"
+[ "$?" = 1 ]|| ng "$LINENO"
+
+# 等比数列
+
+out=$(./touhisuuretu 2 2 2)
+[ "$?" = 0 ] || ng "$LINENO"
+
+out=$(./touhisuuretu 2)
+[ "$?" = 1 ] || ng "$LINENO"
+
+out=$(./touhisuuretu 2 2)
+[ "$?" = 1 ] || ng "$LINENO"
+
+out=$(./touhisuuretu a a a)
+[ "$?" = 1 ] || ng "$LINENO"
+
+out=$(./touhisuuretu あ あ あ)
+[ "$?" = 1 ] || ng "$LINENO"
+
+out=$(./touhisuuretu あ e 2)
+[ "$?" = 1 ] || ng "$LINENO"
+
+out=$(./touhisuuretu 2q 2w 2e)
+[ "$?" = 1 ] || ng "$LINENO"
+
+out=$(./touhisuuretu 2222222222222222222222222222222222222222222222 222222222222222222222222222222222222222 2222222222222322222222222222222)
+[ "$?" = 1 ] || ng "$LINENO"
 
 [ "$res" = 0 ] && echo OK
 exit $res
