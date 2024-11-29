@@ -1,0 +1,18 @@
+#!/usr/bin/python3
+# SPDX-FileCopyrightText: 2024 Shunsuke Shibata
+# SPDX-License-Identifier: BSD-3-Clause
+
+import sys
+
+for suretsu in sys.stdin:
+    suretsu = suretsu.strip()
+    values = suretsu.split()
+
+    if len(values) == 3:
+
+        a1 = int(values[0])
+        r = int(values[1])
+        n = int(values[2])
+    
+        a_n = a1 * r ** (n - 1)
+        print(f"等比数列の第{n}項は: {a_n}")
