@@ -19,3 +19,11 @@ $ chmod +x plus
 ```
 
 ## touhisuuretu 概要
+- touhisuuretuは等比数列の指定した初項(a1)、公比(r)、項数(n)を計算するプログラムです。
+
+## touhisuuretu 使い方
+- 好きな整数を初項、公比、項数の順にかいて実行します。
+```
+$./touhisuuretu -2 3 4
+$等比数列の 4 番目の項は -54.0 です。
+```
