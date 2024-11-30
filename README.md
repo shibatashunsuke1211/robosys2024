@@ -4,7 +4,7 @@
 
 [![test](https://github.com/shibatashunsuke1211/robosys2024/actions/workflows/test.yml/badge.svg)](https://github.com/shibatashunsuke1211/robosys2024/actions/workflows/test.yml)
 
-## plus&touhisuretsu
+## plus&touhisuretsu_n
 
 - plusは数列の足し算をするプログラムです。
 - touhisuretsu_nは等比数列の指定した初項(a1)、公比(r)、項数(n)を計算するプログラムです。
