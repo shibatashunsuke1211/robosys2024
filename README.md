@@ -26,8 +26,8 @@ $ chmod +x plus
 
 ## touhisuretsu_n 使用例
 ```
-$./touhisuuretu -2 3 4
-$等比数列の 4 番目の項は -54.0 です。
+$ echo 2 3 4 |./touhisuretsu_n
+等比数列の第4項は: 54
 ```
 
 ## plus 概要
@@ -47,6 +47,5 @@ $ seq 5 | ./plus
 - このパッケージのコードの一部は,下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを,本人の許可を得て自身の著作としたものです。
 - https://github.com/ryuichiueda/slides_marp/tree/master/robosys2024
 - ©　2024 Shunsuke Shibata
->>>>>>> cbdcb3a7f47b80faf01e6fbd22ef61a30874f56b
 
 
