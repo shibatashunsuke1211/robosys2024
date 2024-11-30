@@ -6,33 +6,25 @@
 
 ## plus&touhisuuretu
 
-- plusは標準入力を用いて数値を1行ずつ読み取りそれらすべて足し合わせた合計を出力するプログラムです。あ
-- touhisuuretuは等比数列の指定した初項(a1)、公比(r)、項数(n)を計算するプログラムです。
+- plusは数列の足し算をするプログラムです。
+- touhisuretsu_nは等比数列の指定した初項(a1)、公比(r)、項数(n)を計算するプログラムです。
 
-<<<<<<< HEAD
-##使用準備
-下記コマンドを使用し、適当な場所でクローンを行ってください。
-
-$ git clone https://github.com/shibatashunsuke1211/robosys2024.git
-$ cd robosys2024
-
-=======
 ## 使用方法
 下記コマンドを使用し、ローカル環境にクローンして実行権限を付与してください。
 ```
 $ git clone https://github.com/shibatashunsuke1211/robosys2024.git
 $ cd robosys2024
-$ chmod +x touhisuuretu
+$ chmod +x touhisuretsu_n
 $ chmod +x plus
 ```
 
-## touhisuuretu 概要
+## touhisuretsu_n 概要
 - 等比数列の指定した初項(a1)、公比(r)、項数(n)を計算するプログラムです。
 
-## touhisuuretu 使い方
-- 好きな整数を初項、公比、項数の順にかいて実行します。
+## touhisuretsu_n 使い方
+- 好きな整数を初項、公比、項数の順に入力して実行します。
 
-## touhisuuretu 使用例
+## touhisuretsu_n 使用例
 ```
 $./touhisuuretu -2 3 4
 $等比数列の 4 番目の項は -54.0 です。
