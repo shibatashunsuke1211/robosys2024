@@ -19,30 +19,21 @@ out=$(echo あ | ./plus)
 out=$(echo | ./plus)
 [ "$?" = 1 ]|| ng "$LINENO"
 
-# 等比数列
+# 等比数列$ echo 2 3 4 |./touhisuretsu_n
 
-out=$(./touhisuuretu 2 2 2)
+out=$(echo 2 3 4 |./touhisuretsu_n)
 [ "$?" = 0 ] || ng "$LINENO"
 
-out=$(./touhisuuretu 2)
+out=$(echo a a a |./touhisuretsu_n)
 [ "$?" = 1 ] || ng "$LINENO"
 
-out=$(./touhisuuretu 2 2)
+out=$(echo あ あ あ |./touhisuretsu_n)
 [ "$?" = 1 ] || ng "$LINENO"
 
-out=$(./touhisuuretu a a a)
+out=$(echo 2 あ a |./touhisuretsu_n)
 [ "$?" = 1 ] || ng "$LINENO"
 
-out=$(./touhisuuretu あ あ あ)
-[ "$?" = 1 ] || ng "$LINENO"
-
-out=$(./touhisuuretu あ e 2)
-[ "$?" = 1 ] || ng "$LINENO"
-
-out=$(./touhisuuretu 2q 2w 2e)
-[ "$?" = 1 ] || ng "$LINENO"
-
-out=$(./touhisuuretu 2222222222222222222222222222222222222222222222 222222222222222222222222222222222222222 2222222222222322222222222222222)
+out=$(echo 2a 3a 4a |./touhisuretsu_n)
 [ "$?" = 1 ] || ng "$LINENO"
 
 [ "$res" = 0 ] && echo OK
