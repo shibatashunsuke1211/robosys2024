@@ -1,10 +1,6 @@
 # robosys2024
 
-<<<<<<< HEAD
-千葉工業大学　未来ロボティクス学科　2024年度 ロボティクス学内で行った内容に、課題で作成したファイルを追加したものです。
-=======
-千葉工業大学　未来ロボティクス学科　2024年度 ロボティクス学内で行った内容に、課題で作成したファイルを追加して作成したものです。
->>>>>>> cbdcb3a7f47b80faf01e6fbd22ef61a30874f56b
+このプロジェクトは千葉工業大学未来ロボティクス学科2024年度ロボティクス学の授業で行った内容に、課題で作成したファイルを追加して製作したものです。
 
 [![test](https://github.com/shibatashunsuke1211/robosys2024/actions/workflows/test.yml/badge.svg)](https://github.com/shibatashunsuke1211/robosys2024/actions/workflows/test.yml)
 
