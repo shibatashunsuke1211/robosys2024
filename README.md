@@ -3,6 +3,7 @@
 このプロジェクトは千葉工業大学未来ロボティクス学科2024年度ロボティクス学の授業で行った内容に、課題で作成したファイルを追加して製作したものです。
 
 [![test](https://github.com/shibatashunsuke1211/robosys2024/actions/workflows/test.yml/badge.svg)](https://github.com/shibatashunsuke1211/robosys2024/actions/workflows/test.yml)
+## テスト環境
 
 ## plus&touhisuretsu_n
 
@@ -45,7 +46,7 @@ $ seq 5 | ./plus
 ## ライセンス
 - このソフトウェアパッケージは、3条項BSDライセンスの下、再頒布および使用が許可されます。
 - このパッケージのコードの一部は,下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを,本人の許可を得て自身の著作としたものです。
-- https://github.com/ryuichiueda/slides_marp/tree/master/robosys2024
+   - https://github.com/ryuichiueda/slides_marp/tree/master/robosys2024
 - ©2024 Shunsuke Shibata
 
 

@@ -15,4 +15,4 @@ for suretsu in sys.stdin:
         n = int(values[2])
     
         a_n = a1 * r ** (n - 1)
-        print(f"等比数列の第{n}項は: {a_n}")
+        print(f"{a_n}")
