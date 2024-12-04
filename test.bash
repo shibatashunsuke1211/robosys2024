@@ -22,6 +22,7 @@ out=$(echo | ./plus)
 # 等比数列$ echo 2 3 4 |./touhisuretsu_n
 
 out=$(echo 2 3 4 |./touhisuretsu_n)
+[ "${out}" = 54 ] || "$LINENO"
 [ "$?" = 0 ] || ng "$LINENO"
 
 out=$(echo a a a |./touhisuretsu_n)
