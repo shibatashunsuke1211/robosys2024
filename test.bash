@@ -19,7 +19,7 @@ out=$(echo あ | ./plus)
 out=$(echo | ./plus)
 [ "$?" = 1 ]|| ng "$LINENO"
 
-# 等比数列$ echo 2 3 4 |./touhisuretsu_n
+# 等比数列
 
 out=$(echo 2 3 4 |./touhisuretsu_n)
 [ "${out}" = 54 ] || "$LINENO"
