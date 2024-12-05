@@ -5,7 +5,7 @@
 [![test](https://github.com/shibatashunsuke1211/robosys2024/actions/workflows/test.yml/badge.svg)](https://github.com/shibatashunsuke1211/robosys2024/actions/workflows/test.yml)
 ## テスト環境
 - GitHub Actions
-  -Ubunts 20.04
+  - Ubunts 20.04
     - Python:3.7~3.11
 
 ## plus&touhisuretsu_n
