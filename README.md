@@ -31,7 +31,7 @@ $ chmod +x plus
 ## touhisuretsu_n 使用例
 ```
 $ echo 2 3 4 |./touhisuretsu_n
-等比数列の第4項は: 54
+54
 ```
 
 ## plus 概要
